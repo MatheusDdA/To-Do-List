@@ -1,0 +1,80 @@
+body{
+    background-color:#aa896c;
+    font-family: 'Sono', sans-serif;
+    color: #3b2406;
+    justify-content: center;
+    margin:4px;
+    margin-bottom: 12px;
+    padding:0px;
+}
+h1{
+    padding: auto;
+    font-family: 'Nerko One', cursive;
+    font-size:4vh;
+}
+header{
+    margin: auto;
+    padding: auto;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+main{
+    border: 2px solid #ebc99e;
+    border-radius: 4px;
+    background-color: #a78162;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    max-width: 400px;
+    min-height: 70vh;
+    align-items: center;
+}
+.newTask{
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tasks{
+    margin: 8px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pStyle{
+    color: #ebc99e;
+    font-family: 'Sono', sans-serif;
+    margin: auto;
+    margin-top: 8px;
+    font-size: 2.5vh;
+    cursor: pointer;
+}
+img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.addToDo{
+    border-color: #ebc99e;
+    background-color:#aa896c;
+    cursor:pointer;
+    font-family: 'Sono', sans-serif;
+}
+.TextToDo{
+    background-color: #e7e0d5;
+}
+footer{
+    background-color:#a78162;
+    position:fixed;
+    margin: 0px;
+    padding: 0px;
+    width: 102vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    left: -1px;
+    bottom: 0px;
+    font-size:8px;
+}
